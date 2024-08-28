@@ -1,0 +1,70 @@
+
+/* index.css */
+
+/* General page styles */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+  }
+  
+  /* Row container to align forms vertically and horizontally */
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  
+  /* Form box styles */
+  .form-box {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .border-primary {
+    border-color: #007bff !important;
+  }
+  
+  .text-primary {
+    color: #007bff !important;
+  }
+  
+  .mt-5 {
+    margin-top: 3rem !important;
+  }
+  
+  .p-5 {
+    padding: 3rem !important;
+  }
+  
+  .mx-auto {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  
+  .h-100 {
+    height: 100% !important;
+  }
+  
+  /* Typography */
+  .fw-bold {
+    font-weight: bold !important;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .row {
+      padding-top: 2rem;
+      flex-direction: column;
+    }
+  
+    .form-box {
+      width: 100%;
+      max-width: 430px;
+      margin-bottom: 20px;
+    }
+  }
+  
